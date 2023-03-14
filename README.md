@@ -22,7 +22,7 @@ O desafio aqui foi construir essa lista de tarefas que permite a adição, ediç
 ### Screenshot
 
 
-![](/img/screenshot.png)
+![](/assets/img/screenshot.png)
 
 
 ### Links
