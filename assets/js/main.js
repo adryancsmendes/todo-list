@@ -167,14 +167,7 @@ document.addEventListener("click", (e) => {
 // Event listener for cancel edit button
 cancelEditBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    let todoTitle;
-
-    // If parent element exists and contains an h3 element, get its inner text
-    if (parentEl && parentEl.querySelector("h3")) {
-        todoTitle = parentEl.querySelector("h3").innerText;
-    }
-
-    // Toggle edit form and todo list display
+    
     toggleForms();
 })
 
