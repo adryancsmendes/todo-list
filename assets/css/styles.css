@@ -1,0 +1,153 @@
+/* Main colors */
+/* Buttons */
+/* Container */
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  color: #333;
+  box-sizing: border-box;
+}
+* body {
+  min-height: 100vh;
+  background-image: url("../img/bg-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* body button {
+  background-color: #fdfdfd;
+  color: #2C1543;
+  border: 2px solid #2C1543;
+  padding: 0.3rem 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+* body button > i {
+  color: #2C1543;
+}
+* body button:hover {
+  background-color: #2C1543;
+  color: #fff;
+}
+* body button:hover > i {
+  color: #fff;
+  pointer-events: none;
+}
+* body input, * body select {
+  padding: 0.25rem 0.5rem;
+}
+* body .hide {
+  display: none;
+}
+* .todo-container {
+  max-width: 450px;
+  margin: 3rem 1rem;
+  background-color: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+@media (min-width: 480px) {
+  * .todo-container {
+    margin: 3rem auto;
+  }
+}
+* .todo-container header {
+  text-align: center;
+  padding: 0 1rem 1rem;
+  border-bottom: 1px solid #ccc;
+}
+* .todo-container_content #todo-form, * .todo-container_content #edit-form {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+* .todo-container_content #todo-form p, * .todo-container_content #edit-form p {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+* .todo-container_content #todo-form .form-control, * .todo-container_content #edit-form .form-control {
+  display: flex;
+  align-items: flex-start;
+}
+* .todo-container_content #todo-form .form-control div, * .todo-container_content #edit-form .form-control div {
+  display: flex;
+  flex-direction: column;
+}
+* .todo-container_content #todo-form .form-control div input, * .todo-container_content #edit-form .form-control div input {
+  margin-right: 0.4rem;
+  min-height: 31.59px;
+}
+* .todo-container_content #todo-form .form-control div .error, * .todo-container_content #edit-form .form-control div .error {
+  border: 2px solid red;
+}
+* .todo-container_content #todo-form .form-control div span, * .todo-container_content #edit-form .form-control div span {
+  color: red;
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-top: 0.2rem;
+}
+* .todo-container_content #todo-form #cancel-edit-btn, * .todo-container_content #edit-form #cancel-edit-btn {
+  margin-top: 1rem;
+}
+* .todo-container_content #toolbar {
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+* .todo-container_content #toolbar #search h4, * .todo-container_content #toolbar #filter h4 {
+  margin-bottom: 0.5rem;
+}
+* .todo-container_content #toolbar #search {
+  border-right: 1px solid #ddd;
+  padding-right: 1rem;
+  margin-right: 1rem;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+}
+* .todo-container_content #toolbar #search form {
+  display: flex;
+}
+* .todo-container_content #toolbar #search form input {
+  width: 100%;
+  margin-right: 0.3rem;
+}
+* .todo-container_content #toolbar #filter {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+* .todo-container_content #toolbar #filter select {
+  flex: 1;
+}
+* .todo-container_content #todo-list .todo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  transition: 0.3s;
+}
+* .todo-container_content #todo-list .todo h3 {
+  flex: 1;
+  font-size: 0.9rem;
+}
+* .todo-container_content #todo-list .todo button {
+  margin-left: 0.4rem;
+}
+* .todo-container_content #todo-list .todo.done {
+  background: #2C1543;
+}
+* .todo-container_content #todo-list .todo.done h3 {
+  color: #fff;
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=styles.css.map */
